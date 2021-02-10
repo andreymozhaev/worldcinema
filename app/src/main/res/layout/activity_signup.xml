@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".signup.SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/backgroundColor">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WorldCinema"
+            android:textColor="@color/orange"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <EditText
+            android:id="@+id/editFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/edit"
+            android:ems="10"
+            android:hint="Имя"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray"/>
+
+        <EditText
+            android:id="@+id/editLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit"
+            android:ems="10"
+            android:hint="Фамилия"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray"/>
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray"/>
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit"
+            android:ems="10"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray" />
+
+        <EditText
+            android:id="@+id/editRePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit"
+            android:ems="10"
+            android:hint="Повторить пароль"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/gray"
+            android:textColorHint="@color/gray" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/orangebutton"
+            android:text="Зарегистрироваться"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="48dp"
+            android:background="@drawable/button"
+            android:text="У меня уже есть аккаунт"
+            android:textAllCaps="false"
+            android:textColor="@color/orange" />
+
+    </LinearLayout>
+
+</ScrollView>
