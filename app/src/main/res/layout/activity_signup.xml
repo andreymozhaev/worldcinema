@@ -101,7 +101,7 @@
             android:textColorHint="@color/gray" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button1"
+            android:id="@+id/signupButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
@@ -112,7 +112,7 @@
             android:textColor="@color/white" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button2"
+            android:id="@+id/signinButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
