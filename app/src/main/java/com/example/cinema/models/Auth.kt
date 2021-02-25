@@ -1,3 +1,5 @@
 package com.example.cinema.models
 
-data class Auth()
+data class Auth(
+    val token: String
+)
