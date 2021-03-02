@@ -1,6 +1,7 @@
 package com.example.cinema.api
 
 import com.example.cinema.models.Auth
+import kotlinx.coroutines.Deferred
 import retrofit2.Response
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
